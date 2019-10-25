@@ -1,5 +1,5 @@
-from dialog_bot_sdk.bot import DialogBot
-import grpc
+#from dialog_bot_sdk.bot import DialogBot
+#import grpc
 from flask import Flask
 
 app = Flask(__name__)
