@@ -9,7 +9,7 @@ from dialog_bot_sdk import interactive_media
 
 import openpyxl
 import grpc
-import os
+
 
 file = 'D:/Прочее/Dialog/data.xlsx'
 is_adding_period = [False for i in range(5)]
