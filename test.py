@@ -4,8 +4,8 @@ from flask import Flask
 
 app = Flask(__name__)
 
-def on_msg(*params):
-        bot.messaging.send_message(peer, "Введите 'help' для помощи")
+#def on_msg(*params):
+#        bot.messaging.send_message(peer, "Введите 'help' для помощи")
 
 
 @app.route('/')
