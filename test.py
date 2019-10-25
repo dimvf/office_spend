@@ -1,4 +1,5 @@
 from dialog_bot_sdk.bot import DialogBot
+import grpc
 
 def on_msg(*params):
         bot.messaging.send_message(peer, "Введите 'help' для помощи")
